@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Hind:wght@600&family=Poppins:wght@300&family=Raleway:wght@300&display=swap');
+
+/* font-family: 'Acme', sans-serif;
+font-family: 'Hind', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+header {
+    /* border: rgb(255, 136, 0) solid 2px; */
+    background-color: var(--back);
+    color: white;
+    height: 55px;
+    padding-top: 0.3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* transition: 350ms ease; */
+    z-index: 999;
+}
+
+.header {
+    /* border: rgb(0, 255, 13) solid 2px; */
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1000px;
+    padding: 0 0.9rem;
+    position: relative;
+}
+
+.header .logo {
+    /* border: blue solid 2px; */
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 150px !important;
+    height: 85% !important;
+    /* border: green solid 2px; */
+}
+
+header ul {
+    /* border: green solid 2px; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header ul li {
+    /* background-color: red; */
+    width: 110px;
+    margin: 0 14px;
+    position: relative;
+}
+
+header ul li a {
+    text-decoration: none;
+    height: 100%;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+header ul li a:hover {
+    color: white;
+}
+
+header ul li a span {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+header ul li svg {
+    width: 22px;
+    height: 22px;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+
+.hamburger-menu {
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.hamburger-menu svg {
+    width: 33px;
+    height: 33px;
+}
+
+@media screen and (min-width: 600px) {
+    .hamburger-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header ul {
+        display: none;
+    }
+    .hamburger-menu {
+        display: inline;
+    }
+}

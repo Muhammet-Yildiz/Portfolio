@@ -1,0 +1,119 @@
+.Projects_Page {
+    background-color: var(--back);
+    /* border: 4px red solid; */
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    position: relative;
+}
+
+.Projects_Page section {
+    /* border: blue solid 5px; */
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2.8rem;
+    padding-bottom: 1rem;
+    z-index: 3 !important;
+}
+
+.Projects_Page section p {
+    font-size: 1rem;
+}
+
+.head_2s {
+    /* border: gold solid 2px; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head_2s h1 {
+    margin-bottom: 0.7rem;
+}
+
+.head_2s span {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.few_projects {
+    /* border: rgb(51, 153, 97) solid 6px; */
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.projectCard {
+    /* border: red solid 3px; */
+    padding: 1.6rem 1.2rem;
+    height: 425px;
+    width: 270px;
+    margin: 2rem 1rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    /* box-shadow: 0 4px 8px #f39d4d; */
+    border-radius: 5px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.projectCard .project_title {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.projectCard .imgField {
+    /* border: red solid 2px; */
+    width: 100%;
+    /* height: 500px !important; */
+    position: relative;
+}
+
+.projectCard .imgField img {
+    width: 100%;
+    height: 160px;
+}
+
+.p_descr {
+    font-size: 0.8rem !important;
+    line-height: 23px;
+    /* border: red solid 1px; */
+}
+
+
+/* 1075px  */
+
+@media screen and (max-width: 1075px) {
+    .few_projects {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .About_Page section p {
+        font-size: 0.9rem;
+    }
+    .head_2s h1 {
+        margin-bottom: 1rem;
+        /* color: red; */
+    }
+}
+
+
+/*  */

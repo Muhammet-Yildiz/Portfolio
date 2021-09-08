@@ -1,0 +1,64 @@
+footer {
+    background-color: var(--back);
+    border-top: 1px solid rgb(34, 34, 34);
+    display: flex;
+    width: 100%;
+    /* border: red solid 5px; */
+    height: 85px;
+    padding-left: 1rem;
+}
+
+footer div {
+    width: 33%;
+    /* border: yellow solid 2px; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 1rem;
+    z-index: 3;
+}
+
+footer div li {
+    /* background-color: red; */
+    margin: 0 1.5rem;
+}
+
+footer div li a svg {
+    color: white;
+    width: 22px;
+    height: 22px;
+}
+
+@media screen and (max-width: 800px) {
+    footer div {
+        font-size: 0.7rem;
+    }
+    footer div li {
+        /* background-color: red; */
+        margin: 0 0.7rem;
+    }
+    footer div li a svg {
+        color: white;
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer div {
+        font-size: 0.6rem;
+    }
+    footer div li {
+        /* background-color: red; */
+        margin: 0 0.5rem;
+    }
+    footer div li a svg {
+        color: white;
+        width: 14px;
+        height: 14px;
+    }
+}

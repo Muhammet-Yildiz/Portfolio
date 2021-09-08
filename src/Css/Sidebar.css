@@ -1,0 +1,52 @@
+.Sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 99;
+    background-color: #D76D0B;
+    padding-top: 4rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.Sidebar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 50%;
+    padding: 0;
+}
+
+.Sidebar ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6rem;
+}
+
+.Sidebar ul li a {
+    color: black;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.6rem 2.6rem;
+}
+
+.Sidebar ul li a:hover {
+    background-color: black;
+    color: #D76D0B;
+}
+
+.closeModalBtn {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.closeModalBtn svg {
+    color: black;
+}

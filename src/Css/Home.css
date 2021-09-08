@@ -1,0 +1,282 @@
+.mainPage {
+    /* border: red solid 6px; */
+    height: auto;
+    width: 100%;
+    padding-bottom: 2rem;
+    position: relative;
+    background-color: var(--back);
+}
+
+.part1 {
+    width: 100%;
+    /* border: blue solid 2px; */
+    height: 650px;
+    background-color: var(--back);
+    padding-top: 4rem;
+    z-index: 3;
+}
+
+.mainSection {
+    /* border: green solid 2px; */
+    max-width: 940px;
+    margin: 0 auto;
+    height: 80%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+
+.myInfo {
+    /* border: orange solid 5px; */
+    min-width: 60%;
+    height: 80%;
+    padding: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    padding-top: 5rem;
+}
+
+.sumIntroduce {
+    /* border: yellow solid 2px; */
+    display: flex;
+    color: white;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+.sumIntroduce h2 {
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin-right: 1.3rem;
+    /* border: red solid 1px; */
+    height: 100%;
+    margin-top: 0.7rem;
+}
+
+.sumIntroduce .handShake {
+    font-size: 2.1rem;
+    /* border: red solid 1px; */
+}
+
+.name {
+    font-size: 2.4rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+    /* border: red solid 1px; */
+}
+
+.name span {
+    color: var(--primary);
+    margin-left: 10px;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.Typewritter {
+    /* border: red solid 3px; */
+    font-family: 'Raleway', sans-serif;
+    margin-top: 2.6rem;
+    font-size: 2.2rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.illustrationIcon {
+    /* border: rgb(0, 255, 0) solid 5px; */
+    max-width: 38%;
+    height: 80%;
+    position: relative;
+    margin-top: 0;
+}
+
+.illustrationIcon img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 770px) {
+    .mainSection {
+        /* border: rgb(0, 81, 255) solid 2px; */
+        max-width: 100vw;
+        margin: 1rem 0;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .myInfo {
+        /* border: red solid 5px; */
+        min-width: 80%;
+        padding-left: 2%;
+        height: 80%;
+        position: relative;
+        padding-top: 5rem;
+    }
+    .illustrationIcon {
+        /* border: rgb(0, 255, 0) solid 5px; */
+        min-width: 80%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .illustrationIcon img {
+        width: 100%;
+        height: 100%;
+        padding: 4rem;
+    }
+}
+
+
+/* ORTA KISIM  */
+
+
+/* ---------------------------------------------------- */
+
+.part2 {
+    /* border: red solid 5px; */
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    z-index: 3;
+    position: relative;
+}
+
+.Introduce_Yourself {
+    /* border: green solid 2px; */
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 80%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Introduce_Yourself .secInfo {
+    /* border: yellow solid 2px; */
+    position: relative;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 65%;
+    padding: 0;
+    padding-left: 2rem;
+    margin-bottom: 0;
+}
+
+.Introduce_Yourself .illustrator_Centr {
+    /* border: rgb(0, 255, 0) solid 5px; */
+    max-width: 32%;
+    height: 100%;
+    position: relative;
+    margin-top: 0;
+}
+
+.Introduce_Yourself .illustrator_Centr img {
+    width: 100%;
+    height: 100%;
+}
+
+.secInfo span {
+    color: var(--primary);
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.secInfo p {
+    font-size: 1.2rem;
+}
+
+.secInfo .title_px {
+    /* border: 1px solid lightblue; */
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 770px) {
+    .part2 {
+        margin-top: 22rem;
+    }
+    .Introduce_Yourself {
+        flex-direction: column;
+    }
+    .Introduce_Yourself .secInfo {
+        width: 85%;
+    }
+    .Introduce_Yourself .secInfo {
+        margin-bottom: 3rem;
+    }
+    .Introduce_Yourself .illustrator_Centr {
+        max-width: 70%;
+        height: 80%;
+    }
+}
+
+
+/* SOCİAL MEDİA ALANI  */
+
+.part3 {
+    /* border: green solid 2px; */
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    z-index: 3;
+}
+
+.part3 .socialMedia_wq {
+    max-width: 250px;
+    margin: 0 auto;
+    height: 80%;
+    position: relative;
+    /* border: rgb(0, 113, 128) solid 2px; */
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMedia_wq h1 {
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.socialMedia_wq p {
+    color: white;
+    text-align: center;
+}
+
+.socialMedia_wq span {
+    color: var(--primary);
+}
+
+.socialMedia_wq ul {
+    display: flex;
+    /* border: red solid 1px; */
+    width: 100%;
+    padding: 0;
+    margin-top: 0.5rem;
+    justify-content: space-evenly;
+}
+
+.socialMedia_wq ul li {
+    background-color: white;
+    padding: 0.6rem;
+    border-radius: 50%;
+}
+
+.socialMedia_wq ul li a svg {
+    width: 22px;
+    height: 22px;
+}
