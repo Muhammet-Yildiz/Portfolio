@@ -36,11 +36,10 @@ https://muhammet-yildiz.netlify.app/
 - React Router
 - React Hooks
 - framer-motion
-- react-icons
-- react-icons
-- particles
-- github-calendar
-- typewriter-effect
+- React-icons
+- Particles
+- Github-calendar
+- Typewriter-effect
 
 ### Features
 
