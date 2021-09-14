@@ -103,7 +103,9 @@ export const PROJECTS = [
         repo: 'https://github.com/Muhammet-Yildiz/Foreign-Currency-App',
       },
       technologies: [
-        '#html-css-javascript',
+        '#html5',
+        '#css3',
+        '#javascript',
         '#exchangeratesapi',
       ],
     },

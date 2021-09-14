@@ -16,7 +16,7 @@ const Projects = () => {
 
             initial={{ x: '100vw' }}
             animate={{ x: 0 }}
-            transition={{ type: 'spring', stiffness: 200, delay: 0.2 }}
+            transition={{ type: 'spring', stiffness: 200, delay: 0.4 }}
           >
             My Recent <span>Works
             </span>
@@ -24,7 +24,7 @@ const Projects = () => {
           <motion.p
             initial={{ x: '-100vw' }}
             animate={{ x: 0 }}
-            transition={{ type: 'spring', stiffness: 200, delay: 1 }}
+            transition={{ type: 'spring', stiffness: 200, delay: 1.2 }}
           >
             Here are a few projects I've worked on recently.
           </motion.p>

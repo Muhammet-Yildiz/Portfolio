@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState  } from "react";
 
 import { Link } from "react-router-dom";
 
@@ -20,6 +20,11 @@ const Header = () => {
     const [showStatus,setShowStatus] = useState(false)
     
     const handleShow = () => setShowStatus(true)
+
+    const scroolToTop = () => {
+
+        window.scrollTo(0,0)
+    }
 
 
     return (
@@ -43,7 +48,7 @@ const Header = () => {
                 <div className="logo">
 
 
-                    <Link to="/">
+                    <Link to="/"  onClick ={scroolToTop}>
                         <img src={logo} alt="logo" />
 
                     </Link>
@@ -52,7 +57,7 @@ const Header = () => {
                 </div>
                 <ul>
                     <li>
-                        <Link to="/">
+                        <Link to="/" onClick ={scroolToTop}>
 
                             <AiOutlineHome />
                             <span>Home</span>
@@ -60,7 +65,7 @@ const Header = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/about">
+                        <Link to="/about" onClick ={scroolToTop}>
                             <AiOutlineUser />
                             <span>About</span>
 
@@ -68,7 +73,7 @@ const Header = () => {
                     </li>
 
                     <li>
-                        <Link to="/projects">
+                        <Link to="/projects" onClick ={scroolToTop}>
 
                             <AiOutlineFundProjectionScreen />
                             <span>Projects</span>
@@ -80,8 +85,8 @@ const Header = () => {
             </motion.div>
 
 
-
-            <Sidebar showStatus={showStatus} setShowStatus ={setShowStatus}/>
+            
+            <Sidebar showStatus={showStatus} setShowStatus ={setShowStatus}  />
         </header>
 
     )

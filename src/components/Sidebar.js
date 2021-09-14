@@ -1,5 +1,4 @@
 
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import { motion } from "framer-motion";
@@ -23,16 +22,10 @@ const Sidebar = ({showStatus,setShowStatus}) => {
 
 
 
-    useEffect(() => {
-
-        console.log(showStatus)
-
-    }, [showStatus,setShowStatus])
-
-
     const handlerClick =() => {
-        console.log("TIKLANDI")
         handleClose()
+        window.scrollTo(0,0)
+
     }
     return (
         <motion.div className="Sidebar"
