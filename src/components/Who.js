@@ -25,7 +25,7 @@ const WhoAmI= () => {
                 </span> from  <span>Istanbul, Turkey.
                 </span>
                 <br />
-                I am currently studying computer engineering at Çanakkale 18 Mart University.
+                I am currently studying computer engineering at Sakarya University.
             </p>
             <br />
             <p>
