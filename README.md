@@ -4,7 +4,9 @@
 </br>
 
 
- ![portfolio photo](https://user-images.githubusercontent.com/72153125/132503959-675bbd7a-1c51-4a0d-8659-4d0bdc042a15.png)
+<!--  ![portfolio photo](https://user-images.githubusercontent.com/72153125/132503959-675bbd7a-1c51-4a0d-8659-4d0bdc042a15.png) -->
+ ![portfoliopng](https://user-images.githubusercontent.com/72153125/136260974-212d2400-579a-4b10-865d-442640dbcc6e.png)
+
 
  
  
